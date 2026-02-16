@@ -1,6 +1,6 @@
 package Lol;
 
-public class Habilidades {
+public class Habilidad {
     String nombre;
     String descripcion;
     String tecla;
@@ -8,12 +8,14 @@ public class Habilidades {
     int enfriamiento;
     int nivel;
 
-    public Habilidades(String nombre, String descripcion, String tecla, int costerecurso, int enfriamiento, int nivel) {
+    public Habilidad(String tecla,String nombre, String descripcion, int costerecurso, int enfriamiento) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.tecla = tecla;
         this.costerecurso = costerecurso;
         this.enfriamiento = enfriamiento;
-        this.nivel = nivel;
+        this.nivel = 0;
     }
+
+
 }
